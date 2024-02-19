@@ -1,14 +1,13 @@
+import java.util.Scanner;
 /**
- * calculates volume of a sphere.
+ * Calculates volume of a sphere.
  *
  * @author Ioana Marinescu
  * @version 1.0
- * @since 2024-02-08
+ * @since 2024-02-19
  */
 
-import java.util.Scanner;
-
-final public class VolSphere {
+public final class VolSphere {
   /**
    * Private constructor to prevent instantiation of this utility class.
    */
