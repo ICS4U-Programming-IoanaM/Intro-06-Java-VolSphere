@@ -1,6 +1,5 @@
-
 /**
- * .
+ * calculates volume of a sphere.
  *
  * @author Ioana Marinescu
  * @version 1.0
@@ -28,10 +27,11 @@ final public class VolSphere {
     double radius = sc.nextDouble();
 
     // volume calculations
-    double volume = (4d / 3d) * Math.PI * radius;
+    double volume = (4d / 3d) * Math.PI * Math.pow(radius, 3);
 
     // prints volume to console
-    System.out.println(volume);
+    System.out.format("The volume of the sphere is %.3f cm", volume);
+    System.out.println();
 
     // close scanner
     sc.close();
